@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
       href="node_modules/modern-normalize/modern-normalize.css"
     />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -19,19 +26,8 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <title>goit-markup-hw-03</title>
-    <link rel="stylesheet" type="text/css" href="./CSS/styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.com/libraries/modern-normalize"
-    />
+    <title>document</title>
+    <link rel="stylesheet" href="./CSS/styles.css" />
   </head>
   <body>
     <!-- header -->
@@ -113,34 +109,49 @@
         <div class="container">
           <h2 class="sect-third">Our Team</h2>
           <ul class="heros">
-            <div class="container-hero">
-              <li class="hero">
-                <img src="./images/img.jpg" width="264" alt="man" />
-                <h3 class="name-hero">Mark Guerrero</h3>
-                <p class="position-hero">Product Designer</p>
-              </li>
-            </div>
-            <div class="container-hero">
-              <li class="hero">
-                <img src="./images/img1.jpg" width="264" alt="man" />
-                <h3 class="name-hero">Tom Ford</h3>
-                <p class="position-hero">Frontend Developer</p>
-              </li>
-            </div>
-            <div class="container-hero">
-              <li class="hero">
-                <img src="./images/img2.jpg" width="264" alt="woman" />
-                <h3 class="name-hero">Camila Garcia</h3>
-                <p class="position-hero">Marketing</p>
-              </li>
-            </div>
-            <div class="container-hero">
-              <li class="hero">
-                <img src="./images/img3.jpg" width="264" alt="man" />
-                <h3 class="name-hero">Daniel Wilson</h3>
-                <p class="position-hero">UI Designer</p>
-              </li>
-            </div>
+            <li class="hero">
+              <img
+                src="./images/img.jpg"
+                width="264"
+                alt="man"
+                class="display-image"
+              />
+              <h3 class="name-hero">Mark Guerrero</h3>
+              <p class="position-hero">Product Designer</p>
+            </li>
+
+            <li class="hero">
+              <img
+                src="./images/img1.jpg"
+                width="264"
+                alt="man"
+                class="display-image"
+              />
+              <h3 class="name-hero">Tom Ford</h3>
+              <p class="position-hero">Frontend Developer</p>
+            </li>
+
+            <li class="hero">
+              <img
+                src="./images/img2.jpg"
+                width="264"
+                alt="woman"
+                class="display-image"
+              />
+              <h3 class="name-hero">Camila Garcia</h3>
+              <p class="position-hero">Marketing</p>
+            </li>
+
+            <li class="hero">
+              <img
+                src="./images/img3.jpg"
+                width="264"
+                alt="man"
+                class="display-image"
+              />
+              <h3 class="name-hero">Daniel Wilson</h3>
+              <p class="position-hero">UI Designer</p>
+            </li>
           </ul>
         </div>
       </section>
@@ -149,59 +160,78 @@
         <div class="container">
           <h2 class="sect-heading">Our Portfolio</h2>
           <ul class="block">
-            <div class="div-portfolio">
-              <li class="div-images">
-                <img src="./images/img4.jpg" width="360" alt="Banking" />
-                <h3 class="block-heading">Banking App</h3>
-                <p class="profession">App</p>
-              </li>
-            </div>
-            <div class="div-portfolio">
-              <li class="div-images">
-                <img src="./images/img5.jpg" width="360" alt="Payment" />
-                <h3 class="block-heading">Cashless Payment</h3>
-                <p class="profession">Marketing</p>
-              </li>
-            </div>
-            <div class="div-portfolio">
-              <li class="div-images">
-                <img src="./images/img6.jpg" width="360" alt="Meditation" />
-                <h3 class="block-heading">Meditation App</h3>
-                <p class="profession">App</p>
-              </li>
-            </div>
-            <div class="div-portfolio">
-              <li class="div-images">
-                <img src="./images/img7.jpg" width="360" alt="Taxi" />
-                <h3 class="block-heading">Taxi Service</h3>
-                <p class="profession">Marketing</p>
-              </li>
-            </div>
-            <div class="div-portfolio">
-              <li class="div-images">
-                <img
-                  src="./images/img8.jpg"
-                  width="360"
-                  alt="Screen Illustrations"
-                />
-                <h3 class="block-heading">Screen Illustrations</h3>
-                <p class="profession">Design</p>
-              </li>
-            </div>
-            <div class="div-portfolio">
-              <li class="div-images">
-                <img src="./images/img9.jpg" width="360" alt="Online Courses" />
-                <h3 class="block-heading">Online Courses</h3>
-                <p class="profession">Marketing</p>
-              </li>
-            </div>
+            <li class="div-images">
+              <img
+                src="./images/img4.jpg"
+                width="360"
+                alt="Banking"
+                class="display-image"
+              />
+              <h3 class="block-heading">Banking App</h3>
+              <p class="profession">App</p>
+            </li>
+
+            <li class="div-images">
+              <img
+                src="./images/img5.jpg"
+                width="360"
+                alt="Payment"
+                class="display-image"
+              />
+              <h3 class="block-heading">Cashless Payment</h3>
+              <p class="profession">Marketing</p>
+            </li>
+
+            <li class="div-images">
+              <img
+                src="./images/img6.jpg"
+                width="360"
+                alt="Meditation"
+                class="display-image"
+              />
+              <h3 class="block-heading">Meditation App</h3>
+              <p class="profession">App</p>
+            </li>
+
+            <li class="div-images">
+              <img
+                src="./images/img7.jpg"
+                width="360"
+                alt="Taxi"
+                class="display-image"
+              />
+              <h3 class="block-heading">Taxi Service</h3>
+              <p class="profession">Marketing</p>
+            </li>
+
+            <li class="div-images">
+              <img
+                src="./images/img8.jpg"
+                width="360"
+                alt="Screen Illustrations"
+                class="display-image"
+              />
+              <h3 class="block-heading">Screen Illustrations</h3>
+              <p class="profession">Design</p>
+            </li>
+
+            <li class="div-images">
+              <img
+                src="./images/img9.jpg"
+                width="360"
+                alt="Online Courses"
+                class="display-image"
+              />
+              <h3 class="block-heading">Online Courses</h3>
+              <p class="profession">Marketing</p>
+            </li>
           </ul>
         </div>
       </section>
     </main>
 
     <!-- footer -->
-    <footer class="footer section">
+    <footer class="footer">
       <div class="container">
         <a href="./index.html" class="logo">
           web<span class="span-logo">Studio</span></a

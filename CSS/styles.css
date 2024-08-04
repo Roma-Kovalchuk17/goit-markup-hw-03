@@ -28,6 +28,10 @@ p {
   margin: 0px;
   padding: 0px;
 }
+
+.display-image {
+  display: block;
+}
 .container {
   max-width: 1158px;
   padding: 0 15px 0 15px;
@@ -353,7 +357,7 @@ p {
 /* footer */
 .footer {
   background-color: #2e2f42;
-  padding: 100px 0 100px;
+  padding: 100px 0;
 }
 
 .footer a {
