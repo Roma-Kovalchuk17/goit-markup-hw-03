@@ -281,7 +281,7 @@ p {
 }
 
 .container-hero {
-  padding: 32px 0 120px 0;
+  padding: 32px 0 32px;
 }
 
 .name-hero {
@@ -322,8 +322,6 @@ p {
 
 .div-portfolio {
   width: calc((100% - 48px) / 3);
-  border: 1px solid #e7e9fc;
-  border-top: none;
 }
 
 .block {
@@ -336,6 +334,12 @@ p {
   row-gap: 48px;
 }
 
+.block-portfolio {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
 .block-heading {
   font-weight: 500;
   font-size: 20px;
@@ -343,7 +347,6 @@ p {
   letter-spacing: 0.02em;
   color: #2e2f42;
   text-transform: capitalize;
-  padding-top: 32px;
 }
 
 .profession {
@@ -352,7 +355,6 @@ p {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: #434455;
-  padding-bottom: 32px;
 }
 /* footer */
 .footer {
