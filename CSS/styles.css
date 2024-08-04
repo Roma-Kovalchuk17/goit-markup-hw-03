@@ -75,6 +75,10 @@ p {
   color: #4d5ae5;
 }
 
+.logo-header {
+  margin-right: 76px;
+}
+
 .logo-2 {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -148,8 +152,7 @@ p {
 /* mail */
 /* section1 */
 .main-title {
-  padding-top: 188px;
-  padding-bottom: 188px;
+  padding: 188px 0;
   background-color: #2e2f42;
 }
 
