@@ -43,7 +43,6 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 56px;
 }
 
 .header {
@@ -53,7 +52,6 @@ p {
 .nav {
   display: flex;
   align-items: center;
-  gap: 76px;
 }
 
 .nav a {
@@ -100,6 +98,8 @@ p {
   display: flex;
   width: 261px;
   gap: 40px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .infostudio {
@@ -215,12 +215,12 @@ p {
   padding-bottom: 120px;
 }
 
-.about-us ul {
+.list-info {
   list-style-type: none;
   display: flex;
-  padding: 0px;
-  margin: 0px;
   gap: 24px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .advantage {
@@ -270,6 +270,8 @@ p {
   display: flex;
   justify-content: space-between;
   gap: 24px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .hero {
@@ -331,9 +333,11 @@ p {
   display: flex;
   flex-wrap: wrap;
   padding: 0px;
-  margin: 0px;
+
   gap: 24px;
   row-gap: 48px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .block-portfolio {
